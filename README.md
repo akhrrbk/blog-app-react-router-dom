@@ -14,4 +14,6 @@ to run this app locally:
 
 happy coding!
 
+disclaimer: ninja2 branch uses a fake local server where I am storing the data. and Create Page also works which does not in ninjaYT branch yet
+
 you can follow [this](https://www.youtube.com/watch?v=DO-pSysGItQ&list=PL4cUxeGkcC9gZD-Tvwfod2gaISzfRiP9d&index=23&ab_channel=TheNetNinja) tutorial to learn more about react and react routers

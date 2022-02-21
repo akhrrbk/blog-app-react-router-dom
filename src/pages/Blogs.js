@@ -4,7 +4,7 @@ import { useParams } from 'react-router-dom';
 import { Link } from 'react-router-dom';
 
 const Blogs = () => {
-    const { blogs, error, isLoading } = useFetch('https://ecomm-products.modus.workers.dev/')
+    const { blogs, error, isLoading } = useFetch('http://localhost:8000/blogs')
     
     return (
         <div className='app_blogs'>

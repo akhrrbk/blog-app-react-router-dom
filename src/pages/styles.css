@@ -35,6 +35,13 @@
   margin-top: 1rem;
 }
 
+.app_blogdetails-deleted {
+  background-color: lightgreen;
+  font-size: 1.5em;
+  text-transform: uppercase;
+  margin-top: 1rem;
+}
+
 /* Home */
 
 .app_home-h1 {
@@ -52,4 +59,24 @@
 
 .container_desc-title {
   margin-bottom: 1rem;
+}
+
+.app_create-save {
+  font-size: 1.5em;
+  text-transform: uppercase;
+  margin-top: 1rem;
+  background-color: lightgreen;
+  padding: 0.25rem 0;
+  transition: 0.5s;
+}
+
+/* NotFound page */
+
+.app_notfound-p {
+  margin-bottom: 2rem;
+}
+
+.app_notfound-home {
+  cursor: pointer;
+  text-transform: uppercase;
 }
