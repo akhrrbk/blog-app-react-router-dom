@@ -1,9 +1,7 @@
 import './App.css';
-import Home from './pages/Home';
-import Create from './pages/Create';
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom'
 import Navbar from './components/Navbar';
-
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom'
+import { Home, Create, Blogs, BlogDetails } from './pages/pageIndex'
 
 function App() {
   return (
@@ -12,6 +10,8 @@ function App() {
       <Routes>
         <Route path='/' element={<Home/>} />
         <Route path='/create' element={<Create />} />
+        <Route path='/blogs' element={<Blogs />} />
+        <Route path='/blogs/:id' element={<BlogDetails />} />
       </Routes>
     </Router>
   )

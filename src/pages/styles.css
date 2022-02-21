@@ -1,0 +1,55 @@
+/* Blogs */
+.app_blogs-h2 {
+  margin: 1rem 0;
+}
+
+.app_blogs-ul {
+  list-style-type: num;
+}
+
+.app_blogs-ul_li {
+  padding-bottom: 0.75rem;
+}
+
+.app_blogs-ul_li_link:hover,
+.app_blogs-ul_li:hover {
+  transition: 0.3s;
+  color: coral;
+}
+
+.app_blogs-ul_li_link {
+  text-decoration: none;
+}
+
+/* BlogDetails */
+.app_blogdetails-img {
+  width: 100%;
+  height: auto;
+}
+
+.app_blogdetails-p {
+  margin: 1rem 0;
+}
+
+.app_blogdetails-h2 {
+  margin-top: 1rem;
+}
+
+/* Home */
+
+.app_home-h1 {
+  margin-top: 1rem;
+}
+
+.app_home-container {
+  margin: 2.5rem 0;
+  display: flex;
+}
+
+.app_home-container_desc {
+  margin-left: 0.5rem;
+}
+
+.container_desc-title {
+  margin-bottom: 1rem;
+}
