@@ -1,6 +1,8 @@
 application uses react and react-router-dom v6
 
-app is deployed [here](https://compassionate-wiles-a4981c.netlify.app/)
+check out another branch of this project, ninja2 where I used a local fake server with more features.
+
+app(branch: ninjaYT) is deployed [here](https://compassionate-wiles-a4981c.netlify.app/)
 
 playing with my own api which you can check out [here](https://ecomm-products.modus.workers.dev/)
 
